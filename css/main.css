@@ -1,0 +1,91 @@
+/* body */
+body {
+  color: black;
+  font-size: 18px;
+  font-family: "Hanken Grotesk", sans-serif;
+  font-weight: 500;
+}
+/* end body */
+
+/* 2 column grid */
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 0px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.item {
+  padding: 20px;
+}
+
+/* end 2 column grid */
+
+/* component holder */
+#component_holder {
+  height: 100vh;
+}
+/* end component holder */
+
+/* card1 */
+.card1 {
+  text-align: center;
+  background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+  border-radius: 20px;
+}
+.card2 ul {
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+}
+.card2 li {
+  padding-right: 2rem;
+}
+.result h3 {
+  color: hsl(0, 0%, 100%);
+  font-size: 2rem;
+}
+.card1 h1 {
+  color: hsl(221, 100%, 96%);
+}
+.card1 p {
+  color: hsl(241, 100%, 89%);
+}
+/* result */
+.result {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-image: linear-gradient(
+    hsl(256, 71.9%, 46.1%),
+    hsla(241, 72%, 46%, 0)
+  );
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card1 h3 {
+  color: hsl(0, 0%, 100%);
+  font-size: 2rem;
+}
+.result h2 {
+  color: hsl(0, 0%, 100%);
+  font-size: 5rem;
+}
+.result h2 span {
+  font-size: 18px;
+  color: hsl(221, 100%, 96%);
+  display: block;
+}
+/* end result */
+/* card1 */
+
+/* footer */
+footer {
+  text-align: center;
+}
+/* endfooter */
